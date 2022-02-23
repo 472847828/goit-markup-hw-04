@@ -287,6 +287,7 @@ img {
   color: var(--basic-color-text);
 }
 .team-title-name {
+  margin-bottom: 10px;
   font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
@@ -298,7 +299,6 @@ img {
   color: var(--basic-color-text);
 }
 .team-paragraph-work {
-  padding-top: 10px;
   margin-bottom: 16px;
 
   font-family: var(--primary-font-family);
@@ -428,8 +428,11 @@ img {
   margin-left: calc(-1 * var(--portfolio-elements-gap));
   margin-top: calc(-1 * var(--portfolio-elements-gap));
 }
-.portfolio-elements-link:hover {
+.portfolio-elements-link {
   display: block;
+}
+.portfolio-elements-link:hover,
+.portfolio-elements-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
